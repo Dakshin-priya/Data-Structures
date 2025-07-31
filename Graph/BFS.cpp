@@ -7,7 +7,6 @@ using namespace std;
 class Graph {
     int V; // Number of vertices
     vector<vector<int>> adj; // Adjacency list
-
 public:
     Graph(int V) {
         this->V = V;
