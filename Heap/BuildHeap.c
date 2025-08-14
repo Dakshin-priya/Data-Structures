@@ -5,7 +5,6 @@ void swap(int *p1, int *p2) {
     *p1 = *p2;
     *p2 = temp;
 }
-
 void maxHeapify(int arr[], int parent, int n) {
     int left = 2 * parent + 1;
     int right = 2 * parent + 2;
